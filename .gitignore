@@ -1,0 +1,7 @@
+*
+*/
+!modern_theme/
+!modern_theme/**
+!web_responsive/
+!web_responsive/**
+!.gitignore

@@ -1,0 +1,47 @@
+/* Card Style */
+.o_kanban_view.o_kanban_ungrouped .o_kanban_record{
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(38 60 85 / 16%) !important;
+}
+@media (max-width: 767.98px){
+    .o_kanban_view.o_kanban_ungrouped{
+        margin: 10px 20px 10px 10px;
+    }
+    .o_kanban_view.o_kanban_ungrouped .o_res_partner_kanban.o_kanban_record{
+        margin: 5px;
+    }
+}
+
+/* Card Image Style */
+.o_kanban_view .oe_kanban_card .o_kanban_image, .o_kanban_view .o_kanban_record .o_kanban_image{
+    width: 100px;
+}
+.o_kanban_view .o_kanban_record.o_kanban_record_has_image_fill .o_kanban_image_fill_left{
+    border-radius: 5px 0px 0px 5px;
+}
+
+/* Card Small Bottom Image Style */
+.o_kanban_view .o_kanban_record.o_kanban_record_has_image_fill .o_kanban_image_fill_left .o_kanban_image_inner_pic{
+    border-radius: 5px 0 0 0;
+}
+
+/* Card Detail Style */
+.o_kanban_view.o_kanban_ungrouped .o_res_partner_kanban.o_kanban_record{
+    padding-left: 7px !important;
+}
+.o_kanban_view .oe_kanban_card .oe_kanban_details ul, .o_kanban_view .o_kanban_record .oe_kanban_details ul{
+    margin-bottom: 25px;
+}
+
+/* Card Footer Icon Style */
+.o_res_partner_kanban .o_row{
+    border-top: 1px solid #d8d8d8;
+    padding-top: 2px;
+}
+.o_res_partner_kanban .o_row{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+    width: 60%;
+}
+

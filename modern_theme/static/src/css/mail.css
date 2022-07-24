@@ -1,0 +1,283 @@
+
+/* Sidebar Mailbox Style */
+.o_DiscussSidebarMailbox{
+    padding: 10px;
+}
+
+/* Sidebar New Message Style */
+.o_DiscussSidebarMailbox.o-starred-box .o_DiscussSidebarMailbox_counter{
+    border-color: #4285F4;
+    background-color: #4285F4;
+    color: #fff;
+}
+
+/* Sidebar Category Message Style */
+.o_DiscussSidebarCategory_header{
+    background-color: #40404060;
+    padding: 5px;
+}
+.o_DiscussSidebarCategory_header span,.o_DiscussSidebarCategory_header i{
+    color: #fff;
+}
+
+/* New Category Message Input Style */
+.o_DiscussSidebarCategory_itemNewInput{
+    display: block;
+    width: 100%;
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    border: 1px solid #4285F4;
+    color: #677788;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* New Category Message Input Placeholder Style */
+.o_DiscussSidebarCategory_itemNewInput::placeholder{    
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+/* Background MessageList Style */
+.o_MessageList{
+    background-color: #f0f0f0;
+}
+
+/* Date MessageList Style */
+.o_MessageList_separatorLabel{
+    background-color: transparent;
+}
+
+/* Message Box Style */
+.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core .o_MessageInReplyToView{
+    padding: 5px 0;
+    margin: 5px 0px 5px 5px;
+    background-color: #f0f0f0;
+    border-right: 3px solid #4285F4;
+    border-left: none;
+    border-radius: 5px 0 0 5px;
+}
+.o_ThreadView_core .o_MessageList .o_Message{
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(38 60 85 / 20%) !important;
+    margin: 10px 10px 10px 20px;
+    padding: 10px !important;
+    display: inline-block;
+    width: 50%;
+}
+@media (max-width: 767.98px){
+    .o_ThreadView_core .o_MessageList .o_Message{
+        width: 90%;
+        margin: 10px 20px 10px 20px;
+    }
+}
+.o_Message_sidebar{
+    flex: 0 0 25px;
+}
+.o_ThreadView_core .o_MessageList .o_Message .o_Message_content{
+    padding: 10px 0;
+}
+
+/* Message Box Current User Style */ 
+.o_ThreadView_core .o_MessageList .o_Message.current_user{
+    direction: rtl;
+    background-color: #6596e4;
+    color: #fff;
+}
+.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_sidebarItem{
+    left: auto;
+    right: -10px;
+}
+.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core{
+    text-align: right;
+}
+.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_actionListContainer{
+    right: auto;
+    left: 0;
+    padding-left: 1rem !important;
+    padding-right: 3rem !important;
+}
+.o_ThreadView_core .o_current_user{
+    display: flex;
+    justify-content: end;
+}
+.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core{
+    margin-right: 0.5rem;
+}
+.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core .o_Message_date{
+    color: #dededf;
+}
+.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core .o_MessageReactionGroup.o-hasUserReacted,.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core .o_MessageReactionGroup.o-hasUserReacted:hover{
+    border-color: #fff;
+}
+.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core .o_MessageReactionGroup_count.o-hasUserReacted{
+    color: #fff;
+}
+.o_ThreadView_core .o_MessageList .o_Message_core .o_Message_content{
+    text-align: left;
+    direction: ltr;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Message Box Image Style */
+.o_AttachmentList .o_AttachmentList_partialList .o_AttachmentList_attachment .o_AttachmentImage img{
+    border-radius: 5px;
+}
+
+/* Message Box Avatar Style */
+.o_Message_sidebarItem{
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    border: 3px solid #f0f0f0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+/* Message Replay Arrow Style */
+.o_MessageInReplyToView::before{
+    opacity: 0;
+}
+
+/* Replay Message Style */
+.o_MessageInReplyToView{
+    padding: 5px 0;
+    margin: 5px 5px 10px 5px;
+    background-color: #f0f0f0;
+    border-left: 3px solid #4285F4;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Edit Message Input Style */
+.o_Composer_coreMain.o-composer-is-compact:focus-within{
+    border: 1px solid #4285F4;
+    border-radius: 0.7rem;
+}
+
+/* Delete Message Modal Style */
+.o_DeleteMessageConfirmDialog_blockquote .o_Message_core{
+    margin-left: 10px;
+}
+
+/* Replay Send Message Style */
+.o_Composer_coreHeader.text-truncate{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #dfdfdf;
+    margin-bottom: 5px;
+}
+.o_Composer_coreHeader.text-truncate i{
+    float: right;
+    position: relative;
+    top: 3px;
+    right: 5px;
+}
+
+/* Metting Invation Form Style */
+.o_ThreadViewTopbar_invitePopoverView{
+    border-radius: 5px;
+}
+.o_ChannelInvitationForm input:not(.o_ChannelInvitationForm_selectablePartnerCheckbox){
+    display: block;
+    width: 100%;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #677788;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.o_ChannelInvitationForm input:not(.o_ChannelInvitationForm_selectablePartnerCheckbox)::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 0;
+}
+.o_ChannelInvitationForm input:not(.o_ChannelInvitationForm_selectablePartnerCheckbox):focus{
+    border-color: #5a8dee;
+    color: #677788;
+    background-color: #fff;
+    outline: 0; 
+    box-shadow: 0 0.0625rem 0.1875rem 0 rgb(38 60 85 / 18%);
+}
+.o_ChannelInvitationForm input:not(.o_ChannelInvitationForm_selectablePartnerCheckbox):focus::-moz-placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 0;
+}
+.o_ChannelInvitationForm input:not(.o_ChannelInvitationForm_selectablePartnerCheckbox):focus::-moz-placeholder{
+    transform:translate(5px);
+    -moz-transition:all .25s ease;
+    transition:all .25s ease
+}
+.o_ChannelInvitationForm input:not(.o_ChannelInvitationForm_selectablePartnerCheckbox):focus::placeholder{
+    transform:translate(5px);
+    transition:all .25s ease
+}
+
+/* Metting Setting Form Style */
+.o_RtcConfigurationMenu_optionDeviceSelect{
+    display: block;
+    width: 100%;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #677788;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-top: 5px;
+}
+.o_RtcConfigurationMenu_optionDeviceSelect::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 0;
+}
+.o_RtcConfigurationMenu_optionDeviceSelect:focus{
+    border-color: #5a8dee;
+    color: #677788;
+    background-color: #fff;
+    outline: 0; 
+    box-shadow: 0 0.0625rem 0.1875rem 0 rgb(38 60 85 / 18%);
+}
+.o_RtcConfigurationMenu_optionDeviceSelect:focus::-moz-placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 0;
+}
+.o_RtcConfigurationMenu_optionDeviceSelect:focus::-moz-placeholder{
+    transform:translate(5px);
+    -moz-transition:all .25s ease;
+    transition:all .25s ease
+}
+.o_RtcConfigurationMenu_optionDeviceSelect:focus::placeholder{
+    transform:translate(5px);
+    transition:all .25s ease
+}
+
+/* Metting VideoCall Frame Style */
+.o_RtcVideo{
+    border-radius: 0.7rem;
+}
+
+/* Metting VideoCall Button Style */
+.o_RtcController_button{
+    margin: 0.5rem;
+    padding: 1rem;
+}

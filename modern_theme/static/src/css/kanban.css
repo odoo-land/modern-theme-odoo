@@ -1,0 +1,94 @@
+/* Kanban Section Style */
+.o_kanban_view.o_kanban_grouped.o_kanban_small_column .o_kanban_group:not(.o_column_folded){
+    width: 272px;
+    background-color: rgb(245, 245, 245);
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(38 60 85 / 16%);
+    padding: 10px;
+    border-top: 4px solid #5a8dee;
+}
+
+/* Kanban Header Style */
+.o_kanban_header{
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #5a8dee;
+    margin-bottom: 10px;
+}
+.o_kanban_view .o_kanban_group.o_kanban_has_progressbar >  .o_kanban_header .o_kanban_header_title span,.o_kanban_view .o_kanban_group.o_kanban_has_progressbar > .o_kanban_header .o_kanban_header_title span i,.o_kanban_view .o_kanban_group.o_kanban_has_progressbar > .o_kanban_header .o_kanban_counter .o_kanban_counter_side{
+    color: #212529;
+}
+.o_kanban_view .o_kanban_group .o_kanban_header > .o_kanban_header_title .o_kanban_quick_add i,.o_kanban_view .o_kanban_group .o_kanban_header > .o_kanban_header_title .o_kanban_config i{
+    color: #fff;
+    opacity: 0.7;
+}
+.o_kanban_view .o_kanban_group .o_kanban_header > .o_kanban_header_title .o_column_title{
+    color: #fff;
+}
+.o_kanban_counter > .o_kanban_counter_side{
+    color: #fff;
+}
+
+/* Kanban Progressbar Style */
+.o_kanban_header .o_kanban_counter .o_kanban_counter_progress .progress-bar{
+    background-color: #5a8dee !important;
+}
+
+/* Kanban Item Style */
+.o_kanban_view.o_kanban_grouped .o_kanban_record, .o_kanban_view.o_kanban_grouped .o_kanban_quick_create{
+    width: 100%;
+    margin: 5px 0px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(38 60 85 / 16%);
+}
+
+/* Kanban Item Title Style */
+
+
+/* Kanban Item Footer Style */
+.o_kanban_view .o_kanban_record .o_kanban_record_top, .o_kanban_view .o_kanban_record .o_kanban_record_bottom{
+    border-top: 1px solid rgb(202, 202, 202);
+    padding-top: 5px;
+}
+
+/* New Column Kanban Button Style */
+.o_kanban_view .o_column_quick_create .o_quick_create_folded .o_kanban_add_column{
+    border-radius: 5px;
+}
+
+/* New Section Kanban Style */
+.o_kanban_view .o_column_quick_create .o_quick_create_unfolded{
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(38 60 85 / 16%);
+    padding: 0;
+}
+.o_kanban_view .o_column_quick_create{
+    margin-bottom: 20px;
+}
+
+/* New Section Kanban Header Style */
+.o_kanban_view .o_column_quick_create .o_kanban_header{
+    min-height: 90px;
+}
+.o_kanban_view .o_column_quick_create .o_discard_msg{
+    padding-top: 5px;
+    color: #fff !important;
+}
+.o_kanban_view .o_column_quick_create .input-group{
+    margin-top: 10px;
+}
+.o_kanban_view .o_column_quick_create .o_quick_create_unfolded .o_kanban_header input{
+    background-color: #fff;
+}
+.o_kanban_view .o_column_quick_create .o_quick_create_unfolded .o_kanban_header input:hover,.o_kanban_view .o_column_quick_create .o_quick_create_unfolded .o_kanban_header input:focus{
+    background-color: #fff;
+}
+.o_kanban_view .o_column_quick_create .o_quick_create_unfolded .o_kanban_header .btn{
+    background-color: #d5d5d5;
+    border-color: transparent;
+    color: #4a4a4a;
+}

@@ -1,0 +1,155 @@
+/* Right Header Eleman Style */
+@media (min-width: 1600px){
+    .o_control_panel .o_cp_top_right, .o_control_panel .o_cp_bottom_right {
+        width: 60%;
+    }
+}
+@media (min-width: 1200px){
+    .o_control_panel .o_cp_top_right, .o_control_panel .o_cp_bottom_right {
+        width: 80%;
+    }
+}
+@media (min-width: 800px){
+    .o_control_panel .o_cp_top_right, .o_control_panel .o_cp_bottom_right {
+        width: 100%;
+    }
+}
+
+/* Search Input Style */
+.o_searchview_input_container{
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #677788;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@media (max-width: 767.98px){
+    .o_control_panel .o_searchview{
+        padding: 0 13px;
+    }
+    .o_control_panel .o_searchview .fa{
+        font-size: 15px;
+    }
+    .o_control_panel .o_searchview .fa-search{
+        margin: 0 auto;
+        display: flex;
+    }
+    .o_control_panel .o_searchview .fa-arrow-left,.o_control_panel .o_searchview .fa-filter{
+        padding: 5px;
+    }
+}
+
+/* Search Input Placeholder Style */
+.o_searchview_input::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 0;
+}
+.o_searchview_input:focus::-moz-placeholder{
+    transform:translate(5px);
+    -moz-transition:all .25s ease;
+    transition:all .25s ease
+}
+.o_searchview_input:focus::placeholder{
+    transform:translate(5px);
+    transition:all .25s ease
+}
+
+/* Search Input Focus Style */
+.o_searchview_input:focus::-moz-placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+/* Search Input Icon Style */
+.o_searchview .o_searchview_icon{
+    top: 10px;
+    right: 10px;
+}
+
+/* Search Input Focus Style */
+.o_searchview:focus-within{
+    border: 1px solid #5a8dee !important;
+}
+
+/* Search Input Badge Style */
+.o_searchview .o_searchview_facet{
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+}
+.o_searchview .o_searchview_input_container .o_searchview_facet .o_facet_values{
+    background-color: #ececec;
+}
+
+/* Search Button Mobile Size Style */
+@media (max-width: 767.98px){
+    .o_cp_mobile_search .btn{
+        border-radius: 5px 5px 0 0;
+    }
+}
+
+/* Filter Mobile Size Style */
+.o_cp_mobile_search .o_mobile_search_filter > .dropdown{
+    border-radius: 5px;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+}
+.o_cp_mobile_search .o_mobile_search_filter .btn-light:hover{
+    background-color: #f8f9fa;
+}
+.o_cp_mobile_search .o_mobile_search_filter .dropdown.show{
+    background-color: #e9ecef;
+}
+.o_cp_mobile_search .btn-light:not(:disabled):not(.disabled):active:focus,.o_cp_mobile_search .show > .dropdown-toggle.btn-light:focus,.o_cp_mobile_search .o_mobile_search_filter .btn-light:hover{
+    border-color: transparent;
+}
+
+/* Filter Dropdown Toggle Style */
+button.dropdown-toggle.dropdown-item::after, button.dropdown-toggle.dropdown-item::before{
+    top: 5px;
+}
+
+/* Custom Filter Style */
+.o_filter_condition{
+    padding: 5px 12px;
+}
+
+/* Custom Filter Dropdown Style */
+.o_filter_condition .o_input{
+    margin: 5px 0;
+}
+
+/* Custom Filter Between Dropdown or & Trash Icon Style */
+.o_filter_menu .o_filter_condition .o_or_filter{
+    top: -10px;
+    left: 15px;
+}
+.o_filter_menu .o_filter_condition .o_generator_menu_delete{
+    top: auto;
+    right: 12px;
+}
+
+/* Custom Filter Button Style */
+.o_filter_menu .o_add_condition{
+    line-height: 1.5;
+}
+.o_add_custom_filter_menu .btn-secondary{
+    margin-left: 10px;
+}
+
+/* Custom Filter Button Add Icon Style */
+.o_filter_menu .o_add_condition .fa{
+    padding: 0 5px;
+}
+
+/* Favourite Search Checkbox Style */
+.o_add_favorite .dropdown-menu .custom-checkbox{
+    margin-top: 5px;
+}

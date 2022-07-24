@@ -1,0 +1,15 @@
+/* Activity Avatar Style */
+.o_activity_record img{
+    border-radius: 5px;
+}
+
+/* Schedule Activity Button Style */
+.o_schedule_activity.dropdown-header{
+    margin-top: 0;
+}
+.o_schedule_activity.dropdown-header .btn{
+    border-radius: 0px;
+    border-color: transparent;
+    background-color: #5a8dee;
+    color: #fff;
+}

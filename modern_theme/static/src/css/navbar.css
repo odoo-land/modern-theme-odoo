@@ -1,0 +1,66 @@
+/* Navbar Font Style */
+.o_main_navbar .dropdown .dropdown-toggle, .o_main_navbar .o_menu_sections .dropdown .dropdown-toggle, .o_main_navbar .o_menu_systray .dropdown .dropdown-toggle, .o_main_navbar .o_nav_entry, .o_main_navbar .o_menu_sections .o_nav_entry, .o_main_navbar .o_menu_systray .o_nav_entry, .o_main_navbar > .o_menu_sections > div, .o_main_navbar > .o_menu_sections > div > a, .o_main_navbar .o_menu_systray > div, .o_main_navbar .o_menu_systray > div > a, .o_main_navbar .o_menu_toggle, .o_main_navbar .o_navbar_apps_menu, .o_main_navbar .o_menu_brand{
+    color: #fff;
+}
+
+/* Navbar Dropdown Menu Style */
+.dropdown-menu{
+    border-radius: 5px;
+}
+
+/* Navbar Dropdown Menu Item Style */
+.dropdown-item{
+    padding: 8px 20px;
+}
+
+/* Navbar Dropdown Menu Header Style */
+.dropdown-header{
+    background-color: #40404060;
+    color: #fff;
+    padding: 0.4rem 20px;
+    cursor: default;
+}
+.o_main_navbar .o_menu_sections .o_more_dropdown_section_group{
+    background-color: #40404060 !important;
+}
+
+/* Navbar Badge Icon Style */
+.badge-pill{
+    border-radius: 3px;
+}
+.o_MessagingMenu_counter,.o_mail_systray_item .o_notification_counter{
+    background-color: #FF8800;
+}
+
+/* Navbar Notification Tab Button Style */
+.o_main_navbar .o_MessagingMenu_dropdownMenuHeader .o-active{
+    color: #5a8dee;
+}
+.o_main_navbar .o_MessagingMenu_tabButton{
+    padding: 5px 15px;
+}
+.o_main_navbar .o_MessagingMenu_newMessageButton{
+    background-color: #2c64cc;
+    border-radius: 0px;
+    color: white;
+    padding: 5px 15px;
+}
+
+/* Navbar New Message Button Mobile Style */
+@media (max-width: 767.98px){
+    .o_MessagingMenu_dropdownMenuHeader.o-mobile .o_MessagingMenu_newMessageButton{
+        border-radius: 5px;
+    }
+}
+
+
+/* Navbar Mail Systray Style */
+.o_mail_systray_dropdown .o_mail_systray_dropdown_items .o_note_show{
+    background-color: #5a8dee;
+    color: #fff;
+}
+
+/* Navbar Switch Company Checkbox Style */
+.o_switch_company_menu .dropdown-menu .toggle_company .fa-check-square,.o_switch_company_menu .dropdown-menu .toggle_company .fa-square-o{
+    font-size: 15px;
+}

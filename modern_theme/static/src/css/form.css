@@ -1,0 +1,319 @@
+/* Form Background Style */
+.o_form_view .o_form_sheet_bg{
+    background-image: none;
+    background-color: #f7f7f7;
+}
+
+/* Form Card Style */
+.o_form_view .o_form_sheet_bg > .o_form_sheet{
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid #d4d8dd;
+    border-radius: 0.5rem;
+    background-clip: padding-box;
+    box-shadow: 0 2px 14px rgb(38 60 85 / 16%);
+}
+
+/* Form Button Style */
+.o_list_buttons .btn-secondary,.o_form_buttons_edit .btn-secondary,.o_form_buttons_view .btn-secondary{
+    margin-left: 15px;
+}
+
+/* Form Action Button Mobile Style */
+@media (max-width: 767.98px){
+    .o_control_panel .o_cp_action_menus .dropdown-toggle{
+        padding-right: 1.6rem !important;
+    }
+}
+@media (max-width: 440px){
+    .o_control_panel .o_cp_action_menus .dropdown-toggle{
+        padding-right: 0.6rem !important;
+    }
+}
+
+/* Form Top List Icon Style */
+.o_form_view .oe_button_box .oe_stat_button .o_button_icon{
+    color: #4e5b6f;
+}
+
+/* Avatar Form Style */
+.o_form_view .oe_avatar > img{
+    border-radius: 5px;
+}
+.o_form_view .o_field_widget .o_form_image_controls .fa{
+    padding: 3px 5px;
+    margin: 3px 5px;
+}
+.o_form_view .oe_avatar > img{
+    min-width: 40px;
+    min-height: 30px;
+}
+
+/* Favicon Form Style */
+.o_form_view .o_group.o_inner_group > tbody > tr > td .oe_avatar.o_field_widget .o_form_image_controls .fa{
+    padding: 2px;
+    margin: 2px;
+    font-size: 12px;
+}
+
+/* Avatar Hover Form Style */
+.o_field_widget.o_field_image .o_form_image_controls{
+    border-radius: 5px 5px 0 0;
+}
+
+/* Avatar Edit & Delete Icon Mobile Style */
+@media (max-width: 474.98px){
+    .o_field_widget.o_field_image .o_form_image_controls > .fa{
+        width: 45%;
+    }
+    .o_field_widget.o_field_image .o_form_image_controls > .fa.o_select_file_button{
+        margin: 3px 0;
+        padding: 5px 1px;
+        border-radius: 2px;
+    }
+    .o_field_widget.o_field_image .o_form_image_controls > .fa.o_clear_file_button{
+        margin: 3px 0;
+        padding: 5px 1px;
+        border-radius: 2px;
+    }
+}
+
+/* Field & Lable Margin Style */
+@media (min-width: 1200px){
+    .o_web_client.o_chatter_position_sided .o_action_manager .o_content .o_inner_group .o_td_label, .o_web_client.o_chatter_position_sided .o_action_manager .modal-content .o_inner_group .o_td_label{
+        min-width: 150px !important;
+    }
+}
+
+/* Fields Margin */
+.o_form_view .o_field_widget{
+    margin-bottom: 10px;
+}
+
+/* Empty Field Style */
+.o_field_empty{
+    display: none !important;
+}
+
+/* Lable Input & Select Style */
+.o_form_view .o_group .o_td_label, .o_form_view .o_group .o_checkbox_optional_field > .o_form_label{
+    border: none;
+}
+.o_td_label .o_form_label::after{
+    content: "\205A";
+}
+
+/* Input & Select Style */
+.o_input {
+    display: block;
+    width: 100%;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #677788;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Input Placeholder Style */
+.o_input::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+/* Input Focus Style */
+.o_input:focus{
+    border-color: #5a8dee;
+    color: #677788;
+    background-color: #fff;
+    outline: 0; 
+    box-shadow: 0 0.0625rem 0.1875rem 0 rgb(38 60 85 / 18%);
+}
+.o_input:focus::-moz-placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 0;
+}
+.o_input:focus::-moz-placeholder{
+    transform:translate(5px);
+    -moz-transition:all .25s ease;
+    transition:all .25s ease
+}
+.o_input:focus::placeholder{
+    transform:translate(5px);
+    transition:all .25s ease
+}
+
+/* Required Input Style */
+.o_required_modifier.o_input, .o_required_modifier .o_input{
+    background-color: transparent !important;
+}
+
+/* Address Field Style */
+.o_form_view.o_form_editable .o_address_format .o_address_city,.o_form_view.o_form_editable .o_address_format input.o_address_zip,.o_form_view.o_form_editable .o_address_format div.o_address_state{
+    width: 100%;
+}
+.o_td_label .o_form_label[name="address_name"]::after{
+    content: none;
+}
+
+/* Dropdown Style */
+select.o_field_widget.o_input{
+    padding: 10px;
+}
+.o_input_dropdown .o_input:focus{
+    box-shadow: none;
+}
+
+/* Dropdown Toggle Style */
+.o_field_widget .o_input_dropdown .o_dropdown_button, .o_field_widget .o_input_dropdown .o_datepicker_button, .o_field_widget.o_datepicker .o_dropdown_button, .o_field_widget.o_datepicker .o_datepicker_button{
+    top: 8px;
+    right: 13px;
+}
+
+/* Dropdown Item Style */
+.ui-widget.ui-autocomplete .ui-menu-item > a.dropdown-item{
+    padding: 8px 20px;
+}
+
+
+/* Dropdown Tag Toggle style */
+.o_field_many2manytags .o_dropdown_button{
+    top: 0px !important;
+    right: 0px !important;
+}
+@media (max-width: 767.98px){
+    .o_field_many2manytags .o_dropdown_button{
+        top: 10px !important;
+        right: 0px !important;
+    }
+}
+
+/* Editor Style */
+.note-editable {
+    display: block;
+    width: 100%;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #677788;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Editor Placeholder Style */
+.note-editable p{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 0.25rem;
+}
+.oe-hint:before{
+    top: 3px !important;
+    left: 3px !important;
+}
+
+/* Editor Focus Style */
+.note-editable:focus-within{
+    border: 1px solid #5a8dee;
+    color: #677788;
+    background-color: #fff;
+    outline: 0; 
+    box-shadow: 0 0.0625rem 0.1875rem 0 rgb(38 60 85 / 18%);
+}
+.note-editable:focus-within p{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+/* External Form Button Style */
+.o_field_widget.o_field_many2one .o_external_button{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding: 0;
+    margin-left: 8px;
+    font-size: 19px;
+    color: #5a8dee;
+    border: none;
+}
+
+/* Attachment Style */
+.o_attachment .o_attachment_wrap{
+    border-radius: 5px;
+}
+
+/* Nav Tabs Style */
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    color: #66598f;
+    background-color: #fff;
+    border-color: #4285F4 #4285F4 #dee2e6;
+    border-radius: 5px 5px 0 0;
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus{
+    border-radius: 5px 5px 0 0;
+}
+@media (max-width: 767.98px){
+    .nav-tabs .nav-link, .nav-tabs .nav-item .nav-link{
+        font-size: 10px;
+    }
+}
+@media (max-width: 440px){
+    .nav-tabs .nav-link, .nav-tabs .nav-item .nav-link{
+        font-size: 9px;
+    }
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+        padding: 5px;
+    }
+    .nav-tabs .nav-link{
+        padding: 0.5rem;
+    }
+}
+
+/* Nav Tabs Action Button Style */
+.o_x2m_control_panel .o_cp_buttons{
+    margin-bottom: 20px;
+}
+
+/* List Cell Style */
+.o_data_cell .o_input{
+    padding-top: 10px !important;
+}
+.o_data_cell .o_input:focus{
+    border: none;
+    color: #677788;
+    background-color: #fff;
+    outline: 0; 
+    box-shadow: none;
+}
+
+/* Card User Style */
+.o_kanban_view .oe_kanban_card .o_kanban_image img, .o_kanban_view .o_kanban_record .o_kanban_image img{
+    border-radius: 5px;
+}
+.o_kanban_view .oe_kanban_card .o_kanban_image + div, .o_kanban_view .o_kanban_record .o_kanban_image + div{
+    padding-left: 110px;
+}
+@media (max-width: 767.98px){
+    .o_form_view .o_field_widget .o_kanban_view.o_kanban_ungrouped{
+        margin: 5px 20px 5px 0;
+    }
+    .o_form_view .o_field_widget .o_kanban_view.o_kanban_ungrouped .o_kanban_record{
+        margin: 10px 0;
+    }
+}
+
+/* Notification Error Style */
+.o_notification.bg-danger{
+    border-radius: 5px;
+}

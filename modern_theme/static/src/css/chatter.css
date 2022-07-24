@@ -1,0 +1,80 @@
+/* Chatter Background Style */
+.o_FormRenderer_chatterContainer .o_ThreadView{
+    background-color: #fff;
+}
+.o_FormRenderer_chatterContainer .o_ThreadView_bottomPart .o_ThreadView_core .o_MessageList{
+    border-radius: 5px;
+}
+
+/* Chatter Tab Mobile Style */
+@media (max-width: 767.98px){
+    .o_FormRenderer_chatterContainer .o_ChatterTopbar_actions .btn{
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+@media (max-width: 440px){
+    .o_FormRenderer_chatterContainer .o_ChatterTopbar_actions .btn{
+        font-size: 9px;
+        padding: 4px;
+    }
+}
+
+
+/* Chatter Active Tab Style */
+.o_ChatterTopbar_actions .o-active{
+    border-radius: 5px 5px 0 0;
+}
+
+/* Chatter Send Message Style */
+.o_Chatter .o_Chatter_composer{
+    border-radius: 0 0 5px 5px;
+}
+
+/* Default Message Style */
+.o_Message.o-not-discussion{
+    border-radius: 5px;
+}
+
+/* Online User Status Style */
+.o_PartnerImStatusIcon_icon.o-online{
+    color: #00C851;
+}
+.o_Message_partnerImStatusIcon-mobile{
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    width: 1.8rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+}
+
+/* Activity Icon Style */
+.o_Activity_iconContainer{
+    bottom: -10px;
+    right: -10px;
+}
+.o_Activity_iconContainer .fa{
+    position: absolute;
+    top: 7px;
+}
+
+/* Message Action Button Style */
+.o_MessageActionList{
+    background-color: #4285F4;
+    color: #fff;
+    border-radius: 3px;
+}
+.o_MessageActionList_action:hover{
+    color: #4285F4;
+}
+
+/* Message Reaction Style */
+.o_MessageReactionGroup{
+    border-radius: 0.3rem;
+}
+
+/* Follow User Style */
+.o_Follower.o_FollowerMenu_follower a:hover{
+    border-radius: 5px;
+}

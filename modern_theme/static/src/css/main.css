@@ -1,0 +1,113 @@
+/* Loading Bottom Page Style */
+.o_loading span{
+    border-radius: 5px 0 0 0;
+}
+
+/* Main Scrollbar Style */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(130, 130, 130, 0.214);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(84, 84, 84, 0.3);
+}
+
+/* Card Scrollbar Style */
+.table-responsive::-webkit-scrollbar {
+    width: 5px;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+    background-color: rgba(130, 130, 130, 0.214);
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background-color: rgba(84, 84, 84, 0.3);
+}
+
+/* Button Style */
+.btn{
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+.btn-link{
+    color: #1e4081;
+}
+@media (max-width: 440px){
+    .btn{
+        padding: 5px 10px;
+        border-radius: 4px;
+    }
+}
+
+/* Modal Dialog Style */
+.modal.o_technical_modal .modal-content{
+    border-radius: 5px;
+}
+
+/* Popover Style */
+.o_popover{
+    border-radius: 5px;
+}
+
+/* LiveChat Lable Input Style */
+.o_ChatWindow_newMessageFormLabel{
+    margin: 0 0.5rem;
+}
+
+/* LiveChat Input Style */
+.o_ChatWindow_newMessageFormInput {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #677788;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* LiveChat Input Placeholder Style */
+.o_ChatWindow_newMessageFormInput::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+/* LiveChat Input Focus Style */
+.o_ChatWindow_newMessageFormInput:focus{
+    border-color: #5a8dee;
+    color: #677788;
+    background-color: #fff;
+    outline: 0; 
+    box-shadow: 0 0.0625rem 0.1875rem 0 rgb(38 60 85 / 18%);
+}
+.o_ChatWindow_newMessageFormInput:focus::-moz-placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 0;
+}
+.o_ChatWindow_newMessageFormInput:focus::-moz-placeholder{
+    transform:translate(5px);
+    -moz-transition:all .25s ease;
+    transition:all .25s ease
+}
+.o_ChatWindow_newMessageFormInput:focus::placeholder{
+    transform:translate(5px);
+    transition:all .25s ease
+}
+
+/* Smiling Icon Empty Page Style */
+.o_view_nocontent .o_nocontent_help .o_view_nocontent_smiling_face:before{
+    background-image: url(../images/smiling_face.svg);
+}

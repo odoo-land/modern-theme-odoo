@@ -1,0 +1,27 @@
+/* List Style */
+.o_list_view .o_list_table .o_list_record_selector,.o_list_view .table-responsive .o_list_table thead tr:nth-child(1) th,.o_list_view .o_list_table tbody > tr > td:not(.o_list_record_selector):not(.o_handle_cell):not(.o_list_button):not(.o_state_selection_cell){
+    padding: 10px;
+}
+
+/* List Border Style */
+.o_list_view .o_list_table tbody > tr > td:not(.o_list_record_selector):not(.o_handle_cell):not(.o_list_button):not(.o_state_selection_cell){
+    border-left: 1px solid #dfdfdf;
+}
+
+/* Right To Left Column Style */
+.o_list_view .o_list_table thead > tr > th:not(.o_list_record_selector).o_list_number_th{
+    text-align: left;
+}
+.o_list_view .o_list_table tbody > tr > td:not(.o_list_record_selector).o_list_number{
+    text-align: left;
+}
+
+/* Optional Column Toggle Style */
+.o_list_view .o_optional_columns_dropdown_toggle{
+    padding: 5px 10px;
+}
+
+/* Optional Column Lable Style */
+.o_list_view .o_optional_columns .o_optional_columns_dropdown .dropdown-item label{
+    padding-top: 5px;
+}

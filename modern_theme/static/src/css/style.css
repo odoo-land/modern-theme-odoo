@@ -1,0 +1,290 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(130, 130, 130, 0.214);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(84, 84, 84, 0.3);
+}
+.table-responsive::-webkit-scrollbar {
+    width: 5px;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+    background-color: rgba(130, 130, 130, 0.214);
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background-color: rgba(84, 84, 84, 0.3);
+}
+.o_input {
+    display: block;
+    width: 100%;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #677788;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.o_searchview_input_container{
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #677788;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.o_searchview .o_searchview_icon{
+    top: 10px;
+    right: 10px;
+}
+.o_searchview .o_searchview_facet{
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+}
+.o_searchview .o_searchview_input_container .o_searchview_facet .o_facet_values{
+    background-color: #ececec;
+}
+.o_searchview:focus-within{
+    border: 1px solid #5a8dee !important;
+}
+.o_required_modifier.o_input, .o_required_modifier .o_input{
+    background-color: transparent !important;
+}
+.o_input:focus{
+    border-color: #5a8dee;
+    color: #677788;
+    background-color: #fff;
+    outline: 0; 
+    box-shadow: 0 0.0625rem 0.1875rem 0 rgb(38 60 85 / 18%);
+}
+.o_input::placeholder,.o_searchview_input::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 0;
+}
+.o_input:focus::-moz-placeholder,.o_searchview_input:focus::-moz-placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 0;
+}
+.o_input:focus::-moz-placeholder,.o_searchview_input:focus::-moz-placeholder{
+    transform:translate(5px);
+    -moz-transition:all .25s ease;
+    transition:all .25s ease
+}
+.o_input:focus::placeholder,.o_searchview_input:focus::placeholder{
+    transform:translate(5px);
+    transition:all .25s ease
+}
+.o_form_view .o_form_sheet_bg > .o_form_sheet{
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid #d4d8dd;
+    border-radius: 0.5rem;
+    background-clip: padding-box;
+    box-shadow: 0 2px 14px rgb(38 60 85 / 16%);
+}
+/* input.o_input:focus::placeholder{
+  transform: translate(-5px);
+} */
+.o_form_view .o_field_widget{
+    margin-bottom: 10px;
+}
+.o_form_view.o_form_editable .o_address_format .o_address_city,.o_form_view.o_form_editable .o_address_format input.o_address_zip,.o_form_view.o_form_editable .o_address_format div.o_address_state{
+    width: 100%;
+}
+.o_form_view .o_form_sheet_bg{
+    background-image: none;
+    background-color: #f7f7f7;
+}
+.o_form_view .oe_avatar > img{
+    border-radius: 5px;
+}
+.o_field_empty{
+    display: none !important;
+}
+.o_form_view .o_group .o_td_label, .o_form_view .o_group .o_checkbox_optional_field > .o_form_label{
+    border: none;
+}
+.o_td_label .o_form_label::after{
+    content: "\205A";
+}
+.o_td_label .o_form_label[name="address_name"]::after{
+    content: none;
+}
+
+
+.o_main_navbar .dropdown .dropdown-toggle, .o_main_navbar .o_menu_sections .dropdown .dropdown-toggle, .o_main_navbar .o_menu_systray .dropdown .dropdown-toggle, .o_main_navbar .o_nav_entry, .o_main_navbar .o_menu_sections .o_nav_entry, .o_main_navbar .o_menu_systray .o_nav_entry, .o_main_navbar > .o_menu_sections > div, .o_main_navbar > .o_menu_sections > div > a, .o_main_navbar .o_menu_systray > div, .o_main_navbar .o_menu_systray > div > a, .o_main_navbar .o_menu_toggle, .o_main_navbar .o_navbar_apps_menu, .o_main_navbar .o_menu_brand{
+    color: #fff;
+}
+
+.o_field_widget .o_input_dropdown .o_dropdown_button, .o_field_widget .o_input_dropdown .o_datepicker_button, .o_field_widget.o_datepicker .o_dropdown_button, .o_field_widget.o_datepicker .o_datepicker_button{
+    top: 8px;
+    right: 13px;
+}
+
+.o_field_many2manytags .o_dropdown_button{
+    top: 0px !important;
+    right: 0px !important;
+}
+
+.ui-widget.ui-autocomplete .ui-menu-item > a.dropdown-item{
+    padding: 8px 20px;
+}
+
+
+.btn{
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+.o_field_widget.o_field_image .o_form_image_controls{
+    border-radius: 5px 5px 0 0;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    color: #66598f;
+    background-color: #fff;
+    border-color: #4285F4 #4285F4 #dee2e6;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus{
+    border-radius: 5px 5px 0 0;
+}
+
+.badge-pill{
+    border-radius: 3px;
+}
+
+select.o_field_widget.o_input{
+    padding: 10px;
+}
+.o_notification.bg-danger{
+    border-radius: 5px;
+}
+
+.o_form_view .oe_button_box .oe_stat_button .o_button_icon{
+    color: #4e5b6f;
+}
+
+.o_Message.o-not-discussion{
+    border-radius: 5px;
+}
+.o_PartnerImStatusIcon_icon.o-online{
+    color: #00C851;
+}
+
+.o_kanban_view.o_kanban_ungrouped .o_kanban_record{
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(38 60 85 / 16%) !important;
+}
+
+.o_kanban_view .oe_kanban_card .o_kanban_image, .o_kanban_view .o_kanban_record .o_kanban_image{
+    width: 100px;
+}
+.o_kanban_view .oe_kanban_card .o_kanban_image img, .o_kanban_view .o_kanban_record .o_kanban_image img{
+    border-radius: 5px;
+}
+
+.o_kanban_view .oe_kanban_card .o_kanban_image + div, .o_kanban_view .o_kanban_record .o_kanban_image + div{
+    padding-left: 110px;
+}
+
+.o_kanban_view.o_kanban_ungrouped .o_res_partner_kanban.o_kanban_record{
+    padding-left: 7px !important;
+}
+
+.o_kanban_view .o_kanban_record.o_kanban_record_has_image_fill .o_kanban_image_fill_left{
+    border-radius: 5px 0px 0px 5px;
+}
+
+.o_res_partner_kanban .o_row{
+    border-top: 1px solid #d8d8d8;
+    padding-top: 2px;
+}
+
+
+.dropdown-menu{
+    border-radius: 5px;
+}
+
+.o_kanban_view .oe_kanban_card .oe_kanban_details ul, .o_kanban_view .o_kanban_record .oe_kanban_details ul{
+    margin-bottom: 25px;
+}
+.o_res_partner_kanban .o_row{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+    width: 60%;
+}
+
+.o_list_buttons .btn-secondary,.o_form_buttons_edit .btn-secondary,.o_form_buttons_view .btn-secondary{
+    margin-left: 15px;
+}
+.o_list_view .o_optional_columns .o_optional_columns_dropdown .dropdown-item label{
+    padding-top: 5px;
+}
+
+.o_kanban_view .o_kanban_record.o_kanban_record_has_image_fill .o_kanban_image_fill_left .o_kanban_image_inner_pic{
+    border-radius: 5px 0 0 0;
+}
+
+.o_list_view .o_list_table .o_list_record_selector,.o_list_view .table-responsive .o_list_table thead tr:nth-child(1) th,.o_list_view .o_list_table tbody > tr > td:not(.o_list_record_selector):not(.o_handle_cell):not(.o_list_button):not(.o_state_selection_cell){
+    padding: 10px;
+}
+.o_list_view .o_list_table tbody > tr > td:not(.o_list_record_selector):not(.o_handle_cell):not(.o_list_button):not(.o_state_selection_cell){
+    border-left: 1px solid #dfdfdf;
+}
+
+.o_list_view .o_optional_columns_dropdown_toggle{
+    padding: 5px;
+}
+
+.o_list_view .o_list_table .o_column_sortable:not(.o_handle_cell):not(:empty)::after{
+    position: absolute;
+    right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dropdown-header{
+    background-color: #40404060;
+    color: #fff;
+    padding: 0.4rem 20px;
+    cursor: default;
+}
+.dropdown-item{
+    padding: 8px 20px;
+}
+.o_MessagingMenu_counter,.o_mail_systray_item .o_notification_counter{
+    background-color: #FF8800;
+}
+.modal.o_technical_modal .modal-content{
+    border-radius: 5px;
+}
+button.dropdown-toggle.dropdown-item::after, button.dropdown-toggle.dropdown-item::before{
+    top: 5px;
+}
+@media (min-width: 1200px){
+    .o_web_client.o_chatter_position_sided .o_action_manager .o_content .o_inner_group .o_td_label, .o_web_client.o_chatter_position_sided .o_action_manager .modal-content .o_inner_group .o_td_label{
+        min-width: 150px !important;
+    }
+}
+/* 
+.o_field_many2manytags .o_field_many2one_selection input.o_input{
+    border: none !important;
+} */
