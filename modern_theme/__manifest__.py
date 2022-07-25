@@ -17,12 +17,6 @@
     'version': '0.1',
     # any module necessary for this one to work correctly
     'depends': ['base', 'web', 'mail'],
-    # always loaded
-    'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
-    ],
     'assets': {
         'web._assets_primary_variables': [
             'modern_theme/static/src/scss/primary_variables_custom.scss',
