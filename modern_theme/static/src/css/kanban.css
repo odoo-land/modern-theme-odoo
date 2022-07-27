@@ -44,13 +44,18 @@
     box-shadow: 0 2px 4px rgb(38 60 85 / 16%);
 }
 
-/* Kanban Item Title Style */
-
-
 /* Kanban Item Footer Style */
-.o_kanban_view .o_kanban_record .o_kanban_record_top, .o_kanban_view .o_kanban_record .o_kanban_record_bottom{
+.o_kanban_view .o_kanban_record .o_kanban_record_bottom{
     border-top: 1px solid rgb(202, 202, 202);
     padding-top: 5px;
+}
+
+/* Kanban Item Footer Icon Style */
+.o_kanban_view .o_kanban_record .o_kanban_record_bottom .oe_kanban_bottom_left > *{
+    margin-right: 3px;
+}
+.o_kanban_view .o_kanban_record .o_kanban_record_bottom .oe_kanban_bottom_left > span{
+    font-size: 1rem;
 }
 
 /* New Column Kanban Button Style */

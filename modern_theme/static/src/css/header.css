@@ -1,17 +1,15 @@
 /* Right Header Eleman Style */
-@media (min-width: 1600px){
+.o_control_panel .o_cp_top_right, .o_control_panel .o_cp_bottom_right {
+    width: 60% !important;
+}
+@media (max-width: 1200px){
     .o_control_panel .o_cp_top_right, .o_control_panel .o_cp_bottom_right {
-        width: 60%;
+        width: 80% !important;
     }
 }
-@media (min-width: 1200px){
+@media (max-width: 800px){
     .o_control_panel .o_cp_top_right, .o_control_panel .o_cp_bottom_right {
-        width: 80%;
-    }
-}
-@media (min-width: 800px){
-    .o_control_panel .o_cp_top_right, .o_control_panel .o_cp_bottom_right {
-        width: 100%;
+        width: 100% !important;
     }
 }
 
