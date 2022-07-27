@@ -36,6 +36,11 @@
     border-radius: 5px;
 }
 
+/* Chatter Messages Style */
+.o_ThreadView.o_Chatter_thread .o_ThreadView_core .o_MessageList .o_Message{
+    width: 80%;
+}
+
 /* Online User Status Style */
 .o_PartnerImStatusIcon_icon.o-online{
     color: #00C851;
