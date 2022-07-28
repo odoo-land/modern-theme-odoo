@@ -1,0 +1,10 @@
+/* Graph View Card Style */
+.o_graph_view .o_content{
+    margin: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(38 60 85 / 16%) !important;
+    width: auto;
+    display: inline-block;
+}
