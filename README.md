@@ -9,8 +9,8 @@ Modern theme is a Odoo backend theme for Community version, with the latest temp
 
 ## Demo
 
-https://odooland.com
-username: admin
+https://odooland.com <br />
+username: admin <br />
 password: admin
 
 
