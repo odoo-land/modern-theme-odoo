@@ -32,6 +32,7 @@
             'modern_theme/static/src/css/kanban.css',
             'modern_theme/static/src/css/mail.css',
             'modern_theme/static/src/css/calendar.css',
+            'modern_theme/static/src/css/pivot.css',
             'modern_theme/static/src/css/chatter.css',
             'modern_theme/static/src/components/message/message.js',
         ],
