@@ -33,10 +33,12 @@
             'modern_theme/static/src/css/graph.css',
             'modern_theme/static/src/css/activity.css',
             'modern_theme/static/src/css/mail.css',
-            'modern_theme/static/src/css/pos.css',
             'modern_theme/static/src/css/card.css',
             'modern_theme/static/src/css/chatter.css',
             'modern_theme/static/src/components/message/message.js',
+        ],
+        'point_of_sale.assets': [
+            'modern_theme/static/src/css/pos.css',
         ],
         'web.assets_qweb': [
             'modern_theme/static/src/xml/mail.xml',

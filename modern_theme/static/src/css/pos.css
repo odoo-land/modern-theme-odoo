@@ -1,4 +1,192 @@
+/* Pos Header Style */
+.pos .pos-topheader{
+    background-color: #4285F4;
+}
+.pos .pos-rightheader > *{
+    border-right: 1px solid #4285F4;
+}
+.cash-move-button:hover,.ticket-button:hover,.pos .pos-topheader .status-buttons > div:hover,.ticket-button.highlight{
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+/* Pos Header Search Style */
+.search-bar-portal .search-box input{
+    padding-left: 60px;
+    padding-right: 45px;
+}
+.search-bar-portal .search-box input:active,.search-bar-portal .search-box input:focus{
+    border: 1px solid #b2ccfd;
+}
+.search-bar-portal .search-box .clear-icon{
+    margin-right: 10px;
+}
+.search-bar-portal .search-box .database-icon{
+    margin-left: 35px;
+}
+.search-bar-portal .search-box .icon{
+    margin-left: 10px;
+}
+
+/* Pos Header Icon Style */
+.pos [badge]:after{
+    background-color: #FF8800;
+}
+.pos .oe_status .oe_green, .pos .oe_icon.oe_green{
+    color: #FF8800;
+}
+
 /* Pos Popup Style */
-.pos .modal-dialog .popup {
+.pos .modal-dialog .popup{
     border-radius: 5px;
+}
+.pos .popup .title{
+    background-color: #5a8dee;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Pos Button Style */
+.pos .popup .button{
+    border-radius: 4px;
+}
+
+/* Pos Input Focus Style */
+.pos .popup .pos-input:focus{
+    border-color: #5a8dee;
+}
+.pos .popup input:focus, .pos .popup-input.active{
+    box-shadow: none;
+    border: 2px solid #5a8dee;
+}
+
+/* Pos Textarea Focus Style */
+.pos textarea:focus{
+    box-shadow: 0px 0px 0px 3px #5a8dee;
+}
+
+/* Pos Product View Style */
+.pos .green-border-bottom{
+    border-bottom: solid 3px #5a8dee;
+}
+
+/* Pos Product Card Style */
+.pos .product{
+    margin: 5px;
+    padding: 5px;
+    width: 140px;
+    height: 140px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(38 60 85 / 16%) !important;
+}
+.pos .product .product-img{
+    width: auto;
+    height: auto;
+}
+.pos .product .price-tag,.pos .product .product-info-button{
+    background-color: rgba(90, 141, 238, 0.7);
+}
+.pos .product .product-name{
+    position: relative;
+    padding-top: 5px;
+    margin-top: 5px;
+    border-top: 1px solid #d8d8d8;
+    text-align: center;
+}
+
+/* Pos Order Style */
+.pos .order .summary .line{
+    border-color: #5a8dee;
+}
+
+/* Pos Calculator Style */
+.pos .leftpane .pads{
+    border-top: solid 3px #5a8dee;
+}
+.pos .mode-button.selected-mode{
+    background-color: #5a8dee;
+}
+.pos .mode-button.selected-mode:hover{
+    background-color: #3d7be1;
+}
+
+/* Pos Form Element Style */
+.pos .clientlist-screen .client-details input, .pos .clientlist-screen .client-details select{
+    padding: 0.7rem 1rem;
+    border-radius: 0.25rem;
+}
+.pos .clientlist-screen .client-details input:focus, .pos .clientlist-screen .client-details select:focus{
+    border-color: #5a8dee;
+    color: #677788;
+    background-color: #fff;
+    outline: 0; 
+    box-shadow: 0 0.0625rem 0.1875rem 0 rgb(38 60 85 / 18%);
+}
+.pos .clientlist-screen .client-details input:focus::placeholder{
+    transform:translate(5px);
+    transition:all .25s ease
+}
+.pos .clientlist-screen .client-details input:focus::-moz-placeholder{
+    transform:translate(5px);
+    transition:all .25s ease
+}
+.pos .clientlist-screen .client-detail > .label::after{
+    content: "\205A";
+}
+.pos .clientlist-screen .client-details select option{
+    padding: 0.25rem 0.5rem;
+}
+.pos .control-button.highlight, .pos .button.highlight,.ticket-screen .controls button.highlight{
+    background-color: #5a8dee !important;
+    border-color: #4285F4 !important;
+}
+
+/* Pos Total Price Style */
+.payment-screen .paymentlines-empty .total{
+    color: #5a8dee;
+}
+
+/* Pos Payment Amount Style */
+.payment-status-container .amount.highlight{
+    color: #5a8dee;
+}
+
+/* Pos List Style */
+.pos .orders .col{
+    border: 1px solid #c2c2c2;
+}
+.pos .clientlist-screen .client-list th, .pos .clientlist-screen .client-list td{
+    border: 1px solid #c2c2c2;
+}
+
+/* Pos List Scrollbar Style */
+.pos .clientlist-screen .full-content::-webkit-scrollbar {
+    width: 10px;
+}
+
+.pos .clientlist-screen .full-content::-webkit-scrollbar-track {
+    background-color: rgba(130, 130, 130, 0.214);
+}
+
+.pos .clientlist-screen .full-content::-webkit-scrollbar-thumb {
+    background-color: rgba(84, 84, 84, 0.3);
+}
+
+/* Pos List Search Style */
+.order-management-screen .control-panel .search-box input, .pos .searchbox-client input{
+    border-radius: 5px !important;
+}
+.order-management-screen .control-panel .search-box input:focus, .pos .searchbox-client input:focus{
+    box-shadow: 0px 0px 0px 2px rgb(90 141 238) inset !important;
+    color: #000 !important;
+}
+
+/* Pos Order Row Style */
+.pos .orders .order-row:hover, .pos .orders .order-row.highlight{
+    background-color: #5a8dee;
+}
+
+/* Pos Client Line Style */
+.pos .clientlist-screen .client-list tr.highlight{
+    background-color: #5a8dee !important;
 }
