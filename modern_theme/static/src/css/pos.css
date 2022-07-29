@@ -64,6 +64,12 @@
     box-shadow: 0px 0px 0px 3px #5a8dee;
 }
 
+/* Pos Buttons Style */
+.pos .control-button.highlight, .pos .button.highlight,.ticket-screen .controls button.highlight,.cash-move .input-amount .input-type.highlight,.receipt-screen .default-view .actions .send-email button.send.highlight{
+    background-color: #5a8dee !important;
+    border-color: #4285F4 !important;
+}
+
 /* Pos Product View Style */
 .pos .green-border-bottom{
     border-bottom: solid 3px #5a8dee;
@@ -136,10 +142,6 @@
 .pos .clientlist-screen .client-details select option{
     padding: 0.25rem 0.5rem;
 }
-.pos .control-button.highlight, .pos .button.highlight,.ticket-screen .controls button.highlight{
-    background-color: #5a8dee !important;
-    border-color: #4285F4 !important;
-}
 
 /* Pos Total Price Style */
 .payment-screen .paymentlines-empty .total{
@@ -189,4 +191,39 @@
 /* Pos Client Line Style */
 .pos .clientlist-screen .client-list tr.highlight{
     background-color: #5a8dee !important;
+}
+
+/* Pos Receipt Style */
+.pos .pos-receipt-container > div{
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(38 60 85 / 16%) !important;
+    border: 2px solid #5a8dee
+}
+.pos-receipt .pos-receipt-contact div{
+    padding: 5px 0;
+}
+.pos-receipt .orderlines .responsive-price{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #c2c2c2;
+}
+
+/* Pos Receipt Send Email Style */
+.receipt-screen .default-view .actions .send-email .input-email{
+    border-radius: 0.25rem;
+}
+.receipt-screen .default-view .actions .send-email .input-email:focus-within{
+    border-color: #5a8dee;
+    color: #677788;
+    background-color: #fff;
+    outline: 0; 
+    box-shadow: 0 0.0625rem 0.1875rem 0 rgb(38 60 85 / 18%);
+}
+.receipt-screen .default-view .actions .send-email .input-email:focus-within input::placeholder{
+    transform:translate(5px);
+    transition:all .25s ease
+}
+.receipt-screen .default-view .actions .send-email .input-email:focus-within input::-moz-placeholder{
+    transform:translate(5px);
+    transition:all .25s ease
 }
