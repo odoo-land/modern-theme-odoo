@@ -16,7 +16,7 @@
     'maintainer': ["milad-sadeghi"],
     'website': "http://www.odooland.com",
     'support': "odooland.dev@gmail.com",
-    'category': 'Theme/Backend',
+    'category': "Themes/Backend",
     'depends': ['base', 'web', 'mail', 'web_responsive'],
     'images': ['static/description/logo.png'],
     'Live_test_url':'demo.odooland.com',
