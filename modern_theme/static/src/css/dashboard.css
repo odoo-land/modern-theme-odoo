@@ -17,9 +17,56 @@
 }
 
 /* Dashboard View Style */
-.o_dashboard .oe_dashboard_layout_1-1 .oe_dashboard_column{
-    width: 45% !important;
+.o_dashboard .oe_dashboard_column{
+    width: 100% !important;
+    padding-top: 15px;
 }
+.o_dashboard .oe_dashboard_column .oe_action .oe_content .o_action{
+    overflow: auto !important;
+}
+
+/* Dashboard View One Column Style */
+.o_dashboard .oe_dashboard.oe_dashboard_layout_1 .oe_action{
+    width: 99%;
+    display: inline-block;
+    max-height: 500px;
+}
+
+/* Dashboard View Two Column Style */
+.o_dashboard .oe_dashboard.oe_dashboard_layout_1-1 .oe_action{
+    width: 49%;
+    display: inline-block;
+    max-height: 500px;
+}
+.o_dashboard .oe_dashboard.oe_dashboard_layout_1-2 .oe_action:nth-child(even){
+    width: 33%;
+    display: inline-block;
+    max-height: 500px;
+}
+.o_dashboard .oe_dashboard.oe_dashboard_layout_1-2 .oe_action:nth-child(odd){
+    width: 65%;
+    display: inline-block;
+    max-height: 500px;
+}
+.o_dashboard .oe_dashboard.oe_dashboard_layout_2-1 .oe_action:nth-child(even){
+    width: 65%;
+    display: inline-block;
+    max-height: 500px;
+}
+.o_dashboard .oe_dashboard.oe_dashboard_layout_2-1 .oe_action:nth-child(odd){
+    width: 33%;
+    display: inline-block;
+    max-height: 500px;
+}
+
+
+/* Dashboard View Three Column Style */
+.o_dashboard .oe_dashboard.oe_dashboard_layout_1-1-1 .oe_action{
+    width: 32.5%;
+    display: inline-block;
+    max-height: 500px;
+}
+
 
 /* Dashboard Card Style */
 .o_dashboard .oe_dashboard .oe_action{
@@ -36,5 +83,7 @@
 }
 .o_dashboard .oe_dashboard .oe_action .oe_content{
     padding: 12px;
+    overflow: auto;
+    max-height: 450px;
 }
 
