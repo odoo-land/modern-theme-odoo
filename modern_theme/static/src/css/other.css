@@ -28,3 +28,8 @@
 .o_website_dashboard_content .o_dashboard_visits{
     margin-right: 15px;
 }
+
+/* Inventory Header Style */
+.o_purchase_dashboard .table > thead > tr > td.o_main,.o_purchase_dashboard .table tbody > tr > td.o_main,.o_purchase_dashboard .table > thead > tr > td,.o_purchase_dashboard .table tbody > tr > td{
+    border-radius: 5px;
+}
