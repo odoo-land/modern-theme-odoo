@@ -1,0 +1,40 @@
+/* Dashboard Background Style */
+.o_form_view.o_dashboard{
+    background-color: transparent;
+}
+
+/* Dashboard Change View Style */
+.oe_dashboard_layout_selector li{
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.oe_dashboard_layout_selector .oe_dashboard_selected_layout{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 35px;
+    margin-left: -50px;
+    color: #5a8dee !important;
+}
+
+/* Dashboard View Style */
+.o_dashboard .oe_dashboard_layout_1-1 .oe_dashboard_column{
+    width: 45% !important;
+}
+
+/* Dashboard Card Style */
+.o_dashboard .oe_dashboard .oe_action{
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(38 60 85 / 16%) !important;
+}
+.o_dashboard .oe_dashboard .oe_action .oe_header{
+    background-color: #5a8dee;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+.o_dashboard .oe_dashboard .oe_action .oe_header .oe_icon{
+    color: #fff;
+}
+.o_dashboard .oe_dashboard .oe_action .oe_content{
+    padding: 12px;
+}
+
