@@ -10,13 +10,15 @@
         Odoo Land Modern Theme
     """,
 
-    'author': "Fadoo, Odoo Land",
+    'author': "Odoo Land, Fadoo",
     "maintainer": ["milad-sadeghi"],
     'website': "http://www.odooland.com",
     'category': 'Themes',
-    'version': '0.1',
     # any module necessary for this one to work correctly
     'depends': ['base', 'web', 'mail'],
+    'images': ['static/description/logo.png'],
+    'Live_test_url':'demo.odooland.com',
+    'support': "Odoo Land",
     'assets': {
         'web._assets_primary_variables': [
             'modern_theme/static/src/scss/primary_variables_custom.scss',
@@ -45,6 +47,8 @@
         ],
 
     },
+    'price': 0.0,
+    'currency': 'USD',
     'application': False,
     'auto_install': False,
     'license': 'LGPL-3',
