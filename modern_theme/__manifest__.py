@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# Copyright 2021, 2022 Odooland - Milad Sadeghi
+# License LGPL-3.0 or later (https://choosealicense.com/licenses/agpl-3.0/).
 {
     'name': "Modern Theme - Odoo",
     'version': '15.0.1.0.0',
@@ -7,19 +9,17 @@
         Odoo Land Modern Theme""",
 
     'description': """
-        Odoo Land Modern Theme
+        Modern theme is a Odoo backend theme for Community edition, with the latest template design methods and support full responsive.
     """,
 
     'author': "Odoo Land, Fadoo",
     'maintainer': ["milad-sadeghi"],
     'website': "http://www.odooland.com",
     'support': "odooland.dev@gmail.com",
-    'category': 'Themes',
-    # any module necessary for this one to work correctly
-    'depends': ['base', 'web', 'mail'],
+    'category': 'Theme/Backend',
+    'depends': ['base', 'web', 'mail', 'web_responsive'],
     'images': ['static/description/logo.png'],
     'Live_test_url':'demo.odooland.com',
-    'support': "Odoo Land",
     'assets': {
         'web._assets_primary_variables': [
             'modern_theme/static/src/scss/primary_variables_custom.scss',

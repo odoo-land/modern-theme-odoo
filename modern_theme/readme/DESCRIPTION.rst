@@ -1,4 +1,4 @@
-Modern theme is a Odoo backend theme for Community version, with the latest template design methods and support full responsive.
+Modern theme is a Odoo backend theme for Community edition, with the latest template design methods and support full responsive.
 
 Features:
     - Full modules suppot
