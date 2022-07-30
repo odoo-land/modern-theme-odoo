@@ -1,0 +1,8 @@
+/* Tree View Style */
+.o_search_panel .list-group-item header.active{
+    background-color: #5a8dee;
+    border-radius: 5px;
+}
+.o_search_panel .list-group-item .active .o_search_panel_label_title,.o_search_panel .list-group-item .active .o_search_panel_counter{
+    color: #fff !important;
+}
