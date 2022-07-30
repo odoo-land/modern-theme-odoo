@@ -25,7 +25,7 @@ password: admin
 - Full responsive suppot
 - Full rtl support
 - Modern Style & modern color
-- Modification of mail, list, calendar and other views
+- Modification of form, list, kanban, calendar, pivot, graph, activity, mail, card, pos and dashboard views
 - Complete documentation and easy development
 
 ## Authors
@@ -33,6 +33,10 @@ password: admin
 - [@milad-sadeghii](https://github.com/milad-sadeghii)
 - [@saeed-raeisi](https://github.com/saeed-raeisi)
 
+## Installation
+
+Web responsive module is a requirement for installation.
+First, install the web responsive module and then install the modern theme module.
 
 ## Support
 

@@ -1,5 +1,2 @@
-**English**
-
-
-**Persian**
+Install the module and enjoy it. :)
 

@@ -11,8 +11,9 @@
     """,
 
     'author': "Odoo Land, Fadoo",
-    "maintainer": ["milad-sadeghi"],
+    'maintainer': ["milad-sadeghi"],
     'website': "http://www.odooland.com",
+    'support': "odooland.dev@gmail.com",
     'category': 'Themes',
     # any module necessary for this one to work correctly
     'depends': ['base', 'web', 'mail'],
