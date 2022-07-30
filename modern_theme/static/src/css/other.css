@@ -6,3 +6,12 @@
 .o_search_panel .list-group-item .active .o_search_panel_label_title,.o_search_panel .list-group-item .active .o_search_panel_counter{
     color: #fff !important;
 }
+
+/* Attendance View Style */
+.o_hr_attendance_kiosk_mode{
+    border-radius: 5px;
+}
+.o_hr_attendance_kiosk_mode .o_hr_attendance_user_badge{
+    background: linear-gradient(to right bottom, #5a8dee, #b2ccfd);
+    border-radius: 5px 5px 0 0;
+}
