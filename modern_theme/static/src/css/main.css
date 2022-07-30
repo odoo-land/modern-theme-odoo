@@ -111,3 +111,8 @@
 .o_view_nocontent .o_nocontent_help .o_view_nocontent_smiling_face:before{
     background-image: url(../images/smiling_face.svg);
 }
+
+/* Module Icon Style */
+.oe_module_icon{
+    border-radius: 5px;
+}
