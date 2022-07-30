@@ -37,6 +37,7 @@
             'modern_theme/static/src/css/activity.css',
             'modern_theme/static/src/css/mail.css',
             'modern_theme/static/src/css/card.css',
+            'modern_theme/static/src/css/dashboard.css',
             'modern_theme/static/src/css/chatter.css',
             'modern_theme/static/src/components/message/message.js',
         ],
