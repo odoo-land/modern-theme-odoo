@@ -15,3 +15,16 @@
     background: linear-gradient(to right bottom, #5a8dee, #b2ccfd);
     border-radius: 5px 5px 0 0;
 }
+
+/* Website Dashboard View Style */
+.o_website_dashboard_content,.o_website_dashboard_content .o_dashboard_sales{
+    width: 100%;
+}
+.o_dashboards .o_website_dashboard div.o_box{
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(38 60 85 / 16%) !important;
+    margin: 15px;
+}
+.o_website_dashboard_content .o_dashboard_visits{
+    margin-right: 15px;
+}
