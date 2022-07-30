@@ -1,5 +1,5 @@
 /* Kanban Section Style */
-.o_kanban_view.o_kanban_grouped.o_kanban_small_column .o_kanban_group:not(.o_column_folded){
+.o_kanban_view.o_kanban_grouped.o_kanban_small_column .o_kanban_group:not(.o_column_folded),.o_kanban_view .o_kanban_group:not(.o_column_folded){
     width: 272px;
     background-color: rgb(245, 245, 245);
     margin: 10px;
@@ -17,8 +17,11 @@
     border-bottom: 1px solid #5a8dee;
     margin-bottom: 10px;
 }
-.o_kanban_view .o_kanban_group.o_kanban_has_progressbar >  .o_kanban_header .o_kanban_header_title span,.o_kanban_view .o_kanban_group.o_kanban_has_progressbar > .o_kanban_header .o_kanban_header_title span i,.o_kanban_view .o_kanban_group.o_kanban_has_progressbar > .o_kanban_header .o_kanban_counter .o_kanban_counter_side{
-    color: #212529;
+.o_column_folded .o_kanban_header{
+    border: none;
+}
+.o_kanban_view .o_kanban_group.o_kanban_has_progressbar >  .o_kanban_header .o_kanban_header_title span,.o_kanban_view .o_kanban_group.o_kanban_has_progressbar > .o_kanban_header .o_kanban_header_title span i,.o_kanban_view .o_kanban_group.o_kanban_has_progressbar > .o_kanban_header .o_kanban_counter .o_kanban_counter_side,.o_kanban_view .o_kanban_group .o_kanban_header > .o_kanban_header_title .o_column_title,.o_kanban_view .o_kanban_group .o_kanban_header > .o_kanban_header_title .o_kanban_config i{
+    color: #212529 !important;
 }
 .o_kanban_view .o_kanban_group .o_kanban_header > .o_kanban_header_title .o_kanban_quick_add i,.o_kanban_view .o_kanban_group .o_kanban_header > .o_kanban_header_title .o_kanban_config i{
     color: #fff;
@@ -42,6 +45,9 @@
     margin: 5px 0px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgb(38 60 85 / 16%);
+}
+.o_kanban_view.o_kanban_grouped .o_kanban_record .o_kanban_content .bg-primary{
+    border-radius: 5px 0 0 5px;
 }
 
 /* Kanban Item Footer Style */
