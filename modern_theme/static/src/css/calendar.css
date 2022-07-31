@@ -1,6 +1,6 @@
 /* Sidebar Calendar Style */
 .o_calendar_sidebar_container .o_calendar_mini.hasDatepicker{
-    border: 2px solid #4285F4;
+    border: 2px solid #c2c2c2;
     border-radius: 5px;
     padding: 0.5rem;
 }
@@ -103,7 +103,7 @@
 
 /*Calendar View Year Style */
 .o_calendar_view .o_calendar_widget .fc-dayGridYear-view > .fc-month-container{
-    border: 2px solid #4285F4;
+    border: 2px solid #c2c2c2;
     border-radius: 5px;
     margin: 1.5rem;
     padding: 1.5rem;
