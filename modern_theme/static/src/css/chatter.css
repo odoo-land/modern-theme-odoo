@@ -69,16 +69,6 @@
     top: 7px;
 }
 
-/* Message Action Button Style */
-.o_MessageActionList{
-    background-color: #4285F4;
-    color: #fff;
-    border-radius: 3px;
-}
-.o_MessageActionList_action:hover{
-    color: #4285F4;
-}
-
 /* Message Reaction Style */
 .o_MessageReactionGroup{
     border-radius: 0.3rem;

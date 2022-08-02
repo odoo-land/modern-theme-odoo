@@ -55,13 +55,49 @@
 }
 
 /* Message Box Style */
-.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core .o_MessageInReplyToView{
+.o_ThreadView_core .o_MessageList_item{
+    display: flex;
+    justify-content: end;
+}
+.o_ThreadView_core .o_MessageList .o_Message{
+    direction: rtl;
+}
+.o_ThreadView_core .o_MessageList .o_Message_sidebarItem{
+    left: auto;
+    right: -10px;
+}
+.o_ThreadView_core .o_MessageList .o-message-squashed .o_Message_sidebarItem{
+    left: auto;
+    right: 5px;
+    color: #555555;
+}
+.o_ThreadView_core .o_MessageList .o_Message_core .o_Message_subject{
+    direction: ltr;
+}
+.o_ThreadView_core .o_MessageList .o_Message_core .o_Message_content{
+    text-align: left;
+    direction: ltr;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.o_ThreadView_core .o_MessageList .o_Message .o_Message_actionListContainer{
+    right: auto;
+    left: 0;
+    padding-left: 1rem !important;
+    padding-right: 3rem !important;
+}
+.o_ThreadView_core .o_MessageList .o_Message .o_Message_core{
+    margin-right: 0.5rem;
+}
+.o_ThreadView_core .o_MessageList .o_Message .o_Message_core .o_MessageInReplyToView{
     padding: 5px 0;
     margin: 5px 0px 5px 5px;
     background-color: #f0f0f0;
-    border-right: 3px solid #4285F4;
-    border-left: none;
-    border-radius: 5px 0 0 5px;
+    border-left: 3px solid #4285F4;
+    border-right: none;
+    border-radius: 0 5px 5px 0;
+    direction: ltr;
 }
 .o_ThreadView_core .o_MessageList .o_Message{
     border-radius: 5px;
@@ -70,6 +106,9 @@
     padding: 10px !important;
     display: inline-block;
     width: 50%;
+}
+.o_MessageInReplyToView_body:hover, .o_MessageInReplyToView_body:focus, .o_MessageInReplyToView_body.focus{
+    color: #292929;
 }
 @media (max-width: 767.98px){
     .o_ThreadView_core .o_MessageList .o_Message{
@@ -86,44 +125,46 @@
 
 /* Message Box Current User Style */ 
 .o_ThreadView_core .o_MessageList .o_Message.current_user{
-    direction: rtl;
-    background-color: #6596e4;
-    color: #fff;
+    direction: ltr;
+    background-color: #a7c9ff;
+    color: #000;
 }
 .o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_sidebarItem{
-    left: auto;
-    right: -10px;
+    right: auto;
+    left: -10px;
 }
-.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core{
-    text-align: right;
+.o_ThreadView_core .o_MessageList .o_Message.current_user .o-message-squashed .o_Message_sidebarItem{
+    right: auto;
+    left: 5px;
+    color: #555555;
 }
 .o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_actionListContainer{
-    right: auto;
-    left: 0;
-    padding-left: 1rem !important;
-    padding-right: 3rem !important;
+    left: auto;
+    right: 0;
+    padding-right: 1rem !important;
+    padding-left: 3rem !important;
 }
 .o_ThreadView_core .o_current_user{
     display: flex;
-    justify-content: end;
+    justify-content: start;
+}
+.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core .o_MessageInReplyToView{
+    padding: 5px 0;
+    margin: 5px 0px 5px 5px;
+    background-color: #f0f0f0;
+    border-left: 3px solid #4285F4;
+    border-right: none;
+    border-radius: 0 5px 5px 0;
+    direction: ltr;
 }
 .o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core{
     margin-right: 0.5rem;
 }
 .o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core .o_Message_date{
-    color: #dededf;
+    color: #555555;
 }
-.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core .o_MessageReactionGroup.o-hasUserReacted,.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core .o_MessageReactionGroup.o-hasUserReacted:hover{
-    border-color: #fff;
-}
-.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_core .o_MessageReactionGroup_count.o-hasUserReacted{
-    color: #fff;
-}
-.o_ThreadView_core .o_MessageList .o_Message_core .o_Message_content{
-    text-align: left;
-    direction: ltr;
-    text-align: justify;
-    text-justify: inter-word;
+.o_ThreadView_core .o_MessageList .o_Message.current_user .o_MessageReactionGroup.o-hasUserReacted, .o_MessageReactionGroup.o-hasUserReacted:hover{
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* Message Box Image Style */
@@ -132,7 +173,7 @@
 }
 
 /* Message Box Avatar Style */
-.o_Message_sidebarItem{
+.o_MessageList_item:not(.o-squashed) .o_Message_sidebarItem{
     position: absolute;
     left: -10px;
     top: -10px;
@@ -140,6 +181,12 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
+}
+.o_MessageList_item .o-squashed .o-message-squashed .o_Message_sidebarItem{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    border: none;
 }
 
 /* Message Replay Arrow Style */
@@ -152,8 +199,20 @@
     padding: 5px 0;
     margin: 5px 5px 10px 5px;
     background-color: #f0f0f0;
-    border-left: 3px solid #4285F4;
-    border-radius: 0 5px 5px 0;
+    border-right: 3px solid #4285F4;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+/* Message Action Button Style */
+.o_MessageActionList{
+    background-color: #fff;
+    color: #4285F4;
+    border: 1px solid #4285F4;
+    border-radius: 3px;
+}
+.o_MessageActionList_action:hover{
+    color: #4285F4;
 }
 
 /* Edit Message Input Style */
