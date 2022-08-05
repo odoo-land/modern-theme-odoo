@@ -4,7 +4,7 @@
 Modern theme is a Odoo backend theme for Community edition, with the latest template design methods and support full responsive.
 
 
-![Logo](https://raw.githubusercontent.com/odoo-land/modern-theme-odoo/master/modern_theme/static/description/logo.png)
+![Logo](https://raw.githubusercontent.com/odoo-land/modern-theme-odoo/master/modern_theme/static/description/assets/logo.png)
 
 
 ## Demo
