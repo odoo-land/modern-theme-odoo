@@ -2,7 +2,7 @@
 # Copyright 2021, 2022 Odooland - Milad Sadeghi
 # License LGPL-3.0 or later (https://choosealicense.com/licenses/agpl-3.0/).
 {
-    'name': "Modern Theme - Odoo",
+    'name': "Modern Backend Theme",
     'version': '15.0.1.0.0',
     'sequence': 1,
     'summary': """
