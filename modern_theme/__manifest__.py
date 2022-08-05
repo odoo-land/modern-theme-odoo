@@ -50,6 +50,10 @@
         ],
 
     },
+    'images': [
+        'static/description/logo.png',
+        'static/description/theme_screenshot.png',
+    ],
     'price': 0.0,
     'currency': 'USD',
     'application': False,
