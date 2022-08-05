@@ -122,6 +122,13 @@
 .o_ThreadView_core .o_MessageList .o_Message .o_Message_content{
     padding: 10px 0;
 }
+.o_ThreadView_core .o_MessageList .o_Message .o_Message_partnerImStatusIcon{
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: 0;
+    left: 0;
+}
 
 /* Message Box Current User Style */ 
 .o_ThreadView_core .o_MessageList .o_Message.current_user{
@@ -165,6 +172,13 @@
 }
 .o_ThreadView_core .o_MessageList .o_Message.current_user .o_MessageReactionGroup.o-hasUserReacted, .o_MessageReactionGroup.o-hasUserReacted:hover{
     background-color: rgba(255, 255, 255, 0.5);
+}
+.o_ThreadView_core .o_MessageList .o_Message.current_user .o_Message_partnerImStatusIcon{
+    position: absolute;
+    top: auto;
+    left: auto;
+    bottom: 0;
+    right: 0;
 }
 
 /* Message Box Image Style */
