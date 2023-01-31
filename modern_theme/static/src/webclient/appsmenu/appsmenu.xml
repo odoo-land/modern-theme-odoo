@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates xml:space="preserve">
+
+	<t 
+		t-name="modern_theme.AppsMenu" 
+		t-inherit="web.Dropdown" 
+		t-inherit-mode="primary" 
+		owl="1"
+	>
+		<xpath expr="//div[@t-ref='menuRef']" position="attributes">
+			<attribute name="t-attf-style">
+	        	background: url("/modern_theme/static/src/images/home-menu-bg-overlay.svg"), linear-gradient(to bottom, #4285F4, #aac5f2);background-size: cover;z-index: 200;
+		    </attribute>
+	    </xpath>
+	</t>
+	
+</templates>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates xml:space="preserve">
+
+	<t 
+		t-name="modern_theme.NavBar" 
+		t-inherit="web.NavBar" 
+		t-inherit-mode="extension" 
+		owl="1"
+	>
+	    <xpath expr="//nav" position="before">
+	    	<t t-set="apps" t-value="this.getAppsMenuItems(this.menuService.getApps())" />
+	    </xpath>
+		<xpath expr="//t[@t-call='web.NavBar.AppsMenu']" position="replace">
+			<AppsMenu 
+				hotkey="'h'" 
+
+				
+				title="'Home Menu'" 
+				class="'o_navbar_apps_menu'" 
+				manualOnly="true"
+			>
+				<t t-set-slot="toggler">
+					<i class="fa fa-th" />
+				</t>
+				<AppsSearch t-if="!env.isSmall"/>
+			    <DropdownItem
+			        t-foreach="apps"
+			        t-as="app"
+			        t-key="app.id"
+			        dataset="{ menuXmlid: app.xmlid, section: app.id }"
+			        class="{ 'o_app': true, 'focus': menuService.getCurrentApp().id === app.id }"
+					onSelected="() => app.action()"
+                	parentClosingMode="'none'"
+				>
+					<a 
+						t-att-href="app.href" 
+						t-on-click.prevent=""
+					>
+						<img 
+					        t-if="app.webIconData"          		
+		            		class="mt_app_icon" 
+			                		t-att-src="app.webIconData"
+		            	/>
+		            	<img  
+		            		t-else="" 
+		            		class="mt_app_icon" 
+		            		src="/modern_theme/static/img/default_icon.png"
+		            	/>
+						<span class="mt_app_name">
+							<t t-out="app.name"/>
+						</span>
+					</a>
+				</DropdownItem>
+			</AppsMenu>
+		</xpath>
+	</t>
+	
+</templates>

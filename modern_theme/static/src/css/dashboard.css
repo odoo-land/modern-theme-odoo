@@ -1,9 +1,26 @@
-/* Dashboard Background Style */
-.o_form_view.o_dashboard{
+/* Defualt Dashboard Style */
+.o_spreadsheet_dashboard_action .o_renderer{
+    padding: 20px;
+}
+.o-figure-wrapper{
+    box-shadow: 0 2px 4px rgb(38 60 85 / 16%) !important;
+    border-radius: 5px;
+}
+.o-figure-wrapper .o-figure-overflow-wrapper{
+    border-radius: 5px !important;
+}
+.o-dashboard-clickable-cell{
+    /* background-color: #5a8dee !important; */
+    color: #fff !important;
+    border-radius: 5px 5px 0 0;
+}
+
+/* My Dashboard Background Style */
+.o_dashboard{
     background-color: transparent;
 }
 
-/* Dashboard Change View Style */
+/* My Dashboard Change View Style */
 .oe_dashboard_layout_selector li{
     margin: 0 5px;
     border-radius: 5px;
@@ -16,7 +33,7 @@
     color: #5a8dee !important;
 }
 
-/* Dashboard View Style */
+/* My Dashboard View Style */
 .o_dashboard .oe_dashboard_column{
     width: 100% !important;
     padding-top: 15px;
@@ -25,14 +42,14 @@
     overflow: auto !important;
 }
 
-/* Dashboard View One Column Style */
+/* My Dashboard View One Column Style */
 .o_dashboard .oe_dashboard.oe_dashboard_layout_1 .oe_action{
     width: 99%;
     display: inline-block;
     max-height: 500px;
 }
 
-/* Dashboard View Two Column Style */
+/* My Dashboard View Two Column Style */
 .o_dashboard .oe_dashboard.oe_dashboard_layout_1-1 .oe_action{
     width: 49%;
     display: inline-block;
@@ -60,7 +77,7 @@
 }
 
 
-/* Dashboard View Three Column Style */
+/* My Dashboard View Three Column Style */
 .o_dashboard .oe_dashboard.oe_dashboard_layout_1-1-1 .oe_action{
     width: 32.5%;
     display: inline-block;
@@ -68,20 +85,20 @@
 }
 
 
-/* Dashboard Card Style */
-.o_dashboard .oe_dashboard .oe_action{
+/* My Dashboard Card Style */
+.o_dashboard .o-dashboard-column .o-dashboard-action{
     border-radius: 5px;
     box-shadow: 0 2px 4px rgb(38 60 85 / 16%) !important;
 }
-.o_dashboard .oe_dashboard .oe_action .oe_header{
+.o_dashboard .o-dashboard-column .o-dashboard-action .o-dashboard-action-header{
     background-color: #5a8dee;
     color: #fff;
     border-radius: 5px 5px 0 0;
 }
-.o_dashboard .oe_dashboard .oe_action .oe_header .oe_icon{
-    color: #fff;
+.o_dashboard .o-dashboard-column .o-dashboard-action .o-dashboard-action-header .btn{
+    color: #fff !important;
 }
-.o_dashboard .oe_dashboard .oe_action .oe_content{
+.o_dashboard .o-dashboard-column .o-dashboard-action .o_content{
     padding: 12px;
     overflow: auto;
     max-height: 450px;

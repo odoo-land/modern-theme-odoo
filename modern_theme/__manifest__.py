@@ -17,12 +17,15 @@
     'website': "http://www.odooland.com",
     'support': "odooland.dev@gmail.com",
     'category': "Themes/Backend",
-    'depends': ['base', 'web', 'mail', 'web_responsive'],
+    'depends': ['base', 'web', 'mail'],
     'images': ['static/description/logo.png'],
     'Live_test_url':'demo.odooland.com',
     'assets': {
         'web._assets_primary_variables': [
             'modern_theme/static/src/scss/primary_variables_custom.scss',
+        ],
+        'web._assets_backend_helpers': [
+            'modern_theme/static/src/webclient/mixins.scss',
         ],
         'web.assets_backend': [
             'modern_theme/static/src/css/main.css',
@@ -40,15 +43,15 @@
             'modern_theme/static/src/css/dashboard.css',
             'modern_theme/static/src/css/chatter.css',
             'modern_theme/static/src/css/other.css',
-            'modern_theme/static/src/components/message/message.js',
+            'modern_theme/static/src/xml/mail.xml',
+            'modern_theme/static/src/webclient/**/*.xml',
+            'modern_theme/static/src/webclient/**/*.scss',
+            'modern_theme/static/src/webclient/**/*.js',
         ],
         'point_of_sale.assets': [
             'modern_theme/static/src/css/pos.css',
-        ],
-        'web.assets_qweb': [
-            'modern_theme/static/src/xml/mail.xml',
-        ],
-
+        ]
+        
     },
     'images': [
         'static/description/logo.png',
