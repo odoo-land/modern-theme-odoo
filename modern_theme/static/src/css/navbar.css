@@ -1,3 +1,9 @@
+/* Main Navbar Color Style */
+.o_main_navbar{
+    border-bottom: 1px solid #4285F4;
+    background: #4285F4;
+}
+
 /* Navbar Font Style */
 .o_main_navbar .dropdown .dropdown-toggle, .o_main_navbar .o_menu_sections .dropdown .dropdown-toggle, .o_main_navbar .o_menu_systray .dropdown .dropdown-toggle, .o_main_navbar .o_nav_entry, .o_main_navbar .o_menu_sections .o_nav_entry, .o_main_navbar .o_menu_systray .o_nav_entry, .o_main_navbar > .o_menu_sections > div, .o_main_navbar > .o_menu_sections > div > a, .o_main_navbar .o_menu_systray > div, .o_main_navbar .o_menu_systray > div > a, .o_main_navbar .o_menu_toggle, .o_main_navbar .o_navbar_apps_menu, .o_main_navbar .o_menu_brand{
     color: #fff;
@@ -28,11 +34,15 @@
 .badge-pill{
     border-radius: 3px;
 }
-.o_MessagingMenu_counter,.o_mail_systray_item .o_notification_counter{
-    background-color: #FF8800;
+.o_ActivityMenuView_counter,.o_MessagingMenu_counter,.o_mail_systray_item .o_notification_counter{
+    background-color: #FF8800 !important;
 }
 
 /* Navbar Notification Tab Button Style */
+.o_main_navbar .o_ActivityMenuView_activityGroupFilterButton{
+    margin-right: 10px !important;
+    padding: 5px 10px !important;
+}
 .o_main_navbar .o_MessagingMenu_dropdownMenuHeader .o-active{
     color: #5a8dee;
 }

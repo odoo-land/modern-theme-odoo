@@ -34,6 +34,9 @@
     padding: 5px 20px;
     border-radius: 4px;
 }
+.btn-secondary{
+    color: #4285F4 !important;
+}
 .btn-link{
     color: #1e4081;
 }
@@ -42,6 +45,11 @@
         padding: 5px 10px;
         border-radius: 4px;
     }
+}
+
+/* Link Style */
+a{
+    color: #4285F4;
 }
 
 /* Modal Dialog Style */

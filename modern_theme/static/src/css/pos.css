@@ -76,11 +76,14 @@
 }
 
 /* Pos Product Card Style */
+.pos .product-list {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+}
 .pos .product{
     margin: 5px;
     padding: 5px;
-    width: 140px;
-    height: 140px;
+    width: auto;
+    height: auto;
     border: none;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgb(38 60 85 / 16%) !important;
@@ -90,7 +93,11 @@
     height: auto;
 }
 .pos .product .price-tag,.pos .product .product-info-button{
-    background-color: rgba(90, 141, 238, 0.7);
+    background-color: rgba(90, 141, 238, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    padding: 7px 0;
 }
 .pos .product .product-name{
     position: relative;

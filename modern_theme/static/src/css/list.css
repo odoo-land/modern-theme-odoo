@@ -16,11 +16,6 @@
     text-align: left;
 }
 
-/* Optional Column Toggle Style */
-.o_list_view .o_optional_columns_dropdown_toggle{
-    padding: 5px 10px;
-}
-
 /* Optional Column Lable Style */
 .o_list_view .o_optional_columns .o_optional_columns_dropdown .dropdown-item label{
     padding-top: 5px;
