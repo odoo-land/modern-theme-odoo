@@ -41,11 +41,6 @@
 }
 
 /* Sidebar Attendees Style */
-.o_cw_filter_color_3 .o_cw_filter_input_bg{
-    border-color: #4285F4;
-    background: #4285F4;
-    color: #fff;
-}
 .o_calendar_sidebar_container .o_calendar_filter .o_calendar_filter_items{
     background-color: #4286f425;
     padding: 1rem;
@@ -140,12 +135,6 @@
     border-radius: 5px;
 }
 .o_calendar_view .o_calendar_widget .fc-dayGridYear-view > .fc-month-container > .fc-month .fc-dayGridMonth-view .fc-has-event{
-    background-color: #b8d3ff;
-}
-.o_calendar_view .fc-view .fc-event.o_calendar_color_3{
-    border-color: #4285F4;
-}
-.o_calendar_view .fc-view .fc-event.o_calendar_color_3:not(.o_calendar_hatched):not(.o_calendar_striked) .fc-bg,.o_calendar_view .fc-view .fc-event.o_calendar_color_3:not(.o_calendar_hatched):not(.o_calendar_striked) .fc-bg,.o_calendar_view .fc-view .fc-event.o_calendar_color_3:not(.o_calendar_hatched):not(.o_calendar_striked){
     background-color: #b8d3ff;
 }
 .o_calendar_view .o_calendar_widget .fc-dayGridMonth-view .fc-event .fc-content,.o_calendar_view .fc-view .fc-event.o_calendar_color_3 .fc-content,.fc-time-grid .fc-event-container{

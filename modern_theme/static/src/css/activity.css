@@ -18,3 +18,7 @@
 .o_activity_view .o_activity_summary_cell.overdue,.o_activity_type_cell .o_kanban_counter .o_kanban_counter_progress .progress-bar.bg-danger{
     background-color: #5a8dee !important;
 }
+.o_activity_view .o_activity_summary_cell.o_activity_empty_cell > i{
+    position: relative;
+    top: 20px;
+}
